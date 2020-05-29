@@ -1,0 +1,16 @@
+{
+    "name": "dmytrotus/pure-php-project",
+    "description": "An example of a modern PHP application bootstrapped without a framework.",
+    "authors": [
+        {
+            "name": "Dmytro Tus",
+            "email": "dmytrotus@gmail.com"
+        }
+    ],
+    "require": {},
+    "autoload": {
+    	"psr-4" : {
+    		"ExampleApp\\": "src/"
+    	}
+    }
+}

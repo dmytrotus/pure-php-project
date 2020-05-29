@@ -2,6 +2,9 @@
 
 declare(strict_types=1);
 
-require 'templates/index.html';
+require_once dirname(__DIR__) . '/vendor/autoload.php';
 
-echo "Hello World";
+use ExampleApp\HelloWorld;
+
+$helloWorld = new HelloWorld();
+$helloWorld->announce();
